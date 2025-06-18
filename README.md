@@ -6,8 +6,11 @@ Tasks for CODSOFT Internship (Web Development)
 
 CODSOFT/
 ├── Task-1_LandingPage/     → A responsive landing page using HTML, CSS, and JS
+
 ├── Task-2_Portfolio/       → A modern developer portfolio built with React + Vite + Tailwind CSS
+
 ├── Task-3_Calculator/      → A basic calculator using HTML, CSS, and JavaScript
+
 └── README.md               → This file
 
 
