@@ -5,6 +5,7 @@ Tasks for CODSOFT Internship (Web Development)
 ## 📁 Repository Structure
 
 CODSOFT/
+
 ├── Task-1_LandingPage/     → A responsive landing page using HTML, CSS, and JS
 
 ├── Task-2_Portfolio/       → A modern developer portfolio built with React + Vite + Tailwind CSS
