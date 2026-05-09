@@ -38,7 +38,7 @@ const Work = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-40 object-cover object-top rounded-lg"
+                className="w-full h-40 md:h-48 lg:h-52 object-cover object-top rounded-lg"
               />
             </div>
             <div className="p-4">
@@ -81,7 +81,7 @@ const Work = () => {
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="w-[95%] object-contain rounded-xl"
+                  className="w-[95%] h-64 object-cover object-top rounded-xl"
                 />
               </div>
               <div className="p-5">
