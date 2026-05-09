@@ -30,9 +30,9 @@ import stXavLogo from './assets/education_logo/stXav.png';
 
 // Project Section Logo's
 import CasaTrip from './assets/work_logo/CasaTrip.png';
-import chatLogo from './assets/work_logo/chat.png';
-import CraftLogo from './assets/work_logo/craft.png';
-import CurrencyLogo from './assets/work_logo/Currency.png';
+import ScriblyLogo from './assets/work_logo/scribly.png';
+import PathwayLogo from './assets/work_logo/pathway.png';
+import ImageAnalyzerLogo from './assets/work_logo/imageanalyzer.png';
 
 export const SkillsInfo = [
   {
@@ -81,7 +81,7 @@ export const experiences = [
   {
     id: 0,
     img: InfosysLogo,
-    role: "AI Developer Intern",
+    role: "Frontend Developer",
     company: "Infosys",
     date: "April 2025 - Present",
     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
@@ -150,40 +150,40 @@ export const projects = [
     id: 0,
     title: "CasaTrip",
     description:
-      "CasaTrip is a full-stack web app that connects travelers with unique stays, offering secure booking, dynamic listings, and seamless UX. Built with MERN stack, it ensures responsive design, scalability, and smooth reservation management.",
+      "CasaTrip is a full-stack travel stay listing app that connects travelers with unique stays. Features Mapbox integration for geo-location mapping, full CRUD operations, secure booking, and dynamic listings with a MongoDB backend and EJS-rendered views.",
     image: CasaTrip,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    // github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    // webapp: "https://githubprofiledetective.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "PixelCraft",
-    description:
-      "PixelCraft is a sleek, responsive landing page built with React, HTML, and Tailwind CSS, crafted to showcase products or services with modern design. It features smooth navigation, clean layout, and fast performance optimized for user engagement.",
-    image: CraftLogo,
-    tags: ["React JS", "HTML", "Tailwind CSS", "JavaScript", "Responsive Design", "Landing Page"],
-    // github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    // webapp: "https://movie-recommendation-app-jet.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Currency Coverter",
-    description:
-      "A simple and responsive Currency Converter built with HTML, CSS, and JavaScript that allows users to convert between multiple currencies in real time. It features a clean UI, exchange rate API integration, and instant calculation for a smooth user experience.",
-    image: CurrencyLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Currency Converter", "API Integration", "Responsive Design"],
-    // github: "https://github.com/codingmastr/cmtk-email-validator",
-    // webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+    tags: ["Node.js", "MongoDB", "EJS", "Mapbox", "Express"],
+    github: "https://github.com/anjali-rayy/CasaTrip",
+    webapp: null,
   },
   {
     id: 1,
-    title: "Chatting App",
+    title: "Scribly",
     description:
-      "A real-time chatting app built with React Native, offering smooth messaging, user authentication, and an intuitive mobile-friendly UI. Features include instant messaging, secure logins, and responsive cross-platform performance.",
-    image: chatLogo,
-    tags: ["React Native", "JavaScript", "Firebase", "Expo", "Real-time Chat", "Mobile App"],
-    // github: "https://github.com/codingmastr/CSPrep",
-    // webapp: "https://csprep.netlify.app/",
+      "A modern blogging platform inspired by Medium. Features Firebase authentication, Firestore real-time database, rich text editor, tag-based post recommendation engine, and search functionality for a seamless writing and reading experience.",
+    image: ScriblyLogo,
+    tags: ["React", "Firebase", "Tailwind CSS", "Vite"],
+    github: "https://github.com/anjali-rayy/Scribly",
+    webapp: "https://scribly-blog.netlify.app",
+  },
+  {
+    id: 2,
+    title: "PathwayAI",
+    description:
+      "An AI-powered career guidance and job matching platform that helps users discover career paths, match with relevant jobs, and get personalized guidance based on their skills, interests, and goals.",
+    image: PathwayLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Node.js", "AI"],
+    github: "https://github.com/anjali-rayy/AI-Powered-Career-Guidance-And-Job-Matching-Platform",
+    webapp: null,
+  },
+  {
+    id: 3,
+    title: "Image Quality Analyzer",
+    description:
+      "A full-stack image analysis tool built in Go that detects blur, exposure, noise, color profile & EXIF metadata in real time. Uses concurrent goroutines for fast processing, supports batch upload of up to 20 images, CSV export, and is Dockerized and deployed.",
+    image: ImageAnalyzerLogo,
+    tags: ["Go", "Docker", "Vanilla JS", "REST API"],
+    github: "https://github.com/anjali-rayy/image-analyzer",
+    webapp: "https://image-analyzer-nmri.onrender.com",
   },
 ];

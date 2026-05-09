@@ -1,4 +1,4 @@
-import { FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -37,7 +37,7 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaTwitter />, link: "https://x.com/AnjaliR2802" },
+            { icon: <FaXTwitter />, link: "https://x.com/AnjaliR2802" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/anjali-ray-5790242a6/" },
             
           ].map((item, index) => (
