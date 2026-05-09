@@ -31,7 +31,7 @@ import stXavLogo from './assets/education_logo/stXav.png';
 // Project Section Logo's
 import CasaTrip from './assets/work_logo/CasaTrip.png';
 import ScriblyLogo from './assets/work_logo/scribly.png';
-import PathwayLogo from './assets/work_logo/pathway.png';
+import PathwayLogo from './assets/work_logo/pathwayai.png';
 import ImageAnalyzerLogo from './assets/work_logo/imageanalyzer.png';
 
 export const SkillsInfo = [
