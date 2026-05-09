@@ -34,19 +34,11 @@ const Work = () => {
             onClick={() => handleOpenModal(project)}
             className="border border-white bg-gray-900 rounded-xl shadow-xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
           >
-            <div className="p-3 rounded-lg overflow-hidden" style={{height: "180px"}}>
+            <div className="p-3">
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full rounded-lg"
-                style={{
-                  height: "360px",
-                  objectFit: "cover",
-                  objectPosition: "top",
-                  transform: "scale(0.5)",
-                  transformOrigin: "top left",
-                  width: "200%",
-                }}
+                className="w-full h-44 object-cover object-top rounded-lg"
               />
             </div>
             <div className="p-4">
