@@ -27,7 +27,7 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -38,7 +38,7 @@ const Work = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-40 object-cover rounded-lg"
+                className="w-full h-40 object-cover object-top rounded-lg"
               />
             </div>
             <div className="p-4">
